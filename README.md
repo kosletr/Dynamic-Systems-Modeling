@@ -1,8 +1,50 @@
 # Dynamic-Systems-Modeling
 
+## Description
+
 This repository contains code written by me, Konstantinos Letros, as a project for Dynamic System Modeling course during the 7th semester (2018-2019) of my undergraduate studies in Electrical Engineering (Section: Electronics and Computer Science) at Aristotle Univeristy of Thessaloniki. 
 
-Applications used for this implementation:
+## Implementations
+
+### Part 1
+ Physical Problem Modeling and Offline Parameter Estimation using Least Squares Method
+ 
+ Physical System 1         |  Physical System 2
+:-------------------------:|:-------------------------:
+![](https://github.com/kosletr/Dynamic-Systems-Modeling/blob/master/Work%201/latex/sys1.jpg)  |  ![](https://github.com/kosletr/Dynamic-Systems-Modeling/blob/master/Work%201/latex/sys2_2.jpg)
+
+Parameter Estimation Evaluation is also included, to proof that the correct values of parameters have been found.
+
+   System 1                |          System  2
+:-------------------------:|:-------------------------:
+![](https://github.com/kosletr/Dynamic-Systems-Modeling/blob/master/Work%201/latex/sys1_inp_out.jpg)  |  ![](https://github.com/kosletr/Dynamic-Systems-Modeling/blob/master/Work%201/latex/sys2_inp_out.jpg)
+
+### Part 2
+ Online Parameter Estimation of Multivariate Systems using Gradient Descent - Lapunov's Method
+
+   Example 1               |          Example  2
+:-------------------------:|:-------------------------:
+![](https://github.com/kosletr/Dynamic-Systems-Modeling/blob/master/Work%202/latex/a11_estim_3.jpg)  |  ![](https://github.com/kosletr/Dynamic-Systems-Modeling/blob/master/Work%202/latex/a22_estim_3.jpg)
+
+ 
+### Part 3
+ Online Constrained Parameter Estimation of Multivariate Systems using Gradient Descent with Projection
+
+   Example 1               |          Example  2
+:-------------------------:|:-------------------------:
+![](https://github.com/kosletr/Dynamic-Systems-Modeling/blob/master/Work%203/latex/a_est_b1.jpg)  |  ![](https://github.com/kosletr/Dynamic-Systems-Modeling/blob/master/Work%203/latex/ab_est_b1.jpg)
+
+
+### Project
+Uknown Linear System Modeling - Black (or Gray due to knowledge of linearity) Box problem. Parameter estimation (ie. degree of diff. equation, coefficients etc.) given the inputs and the corresponding outputs of the system.
+
+   Coefficients a          |        Coefficients b
+:-------------------------:|:-------------------------:
+![](https://github.com/kosletr/Dynamic-Systems-Modeling/blob/master/Project/latex/a_est_online.jpg)  |  ![](https://github.com/kosletr/Dynamic-Systems-Modeling/blob/master/Project/latex/b_est_online.jpg)
+
+
+
+## Applications used for this implementation:
  - MathWorks MATLAB
  - MiKTeX
  - Texmaker
