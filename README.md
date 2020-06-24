@@ -2,18 +2,18 @@
 
 ## Description
 
-This repository contains code written by me, Konstantinos Letros, as a project for Dynamic System Modeling course during the 7th semester (academic year 2018-2019) of my undergraduate studies in Electrical Engineering (Section: Electronics and Computer Science) at Aristotle Univeristy of Thessaloniki. 
+This repository contains code written by me, Konstantinos Letros, as a project for Dynamic System Modeling course during the 7th semester (academic year 2018-2019) of my undergraduate studies in Electrical Engineering (Section: Electronics and Computer Science) at Aristotle Univeristy of Thessaloniki. Machine learning techniques as well as control theory topics are leveraged.
 
 ## Implementations
 
 ### Part 1
- Physical Problem Modeling and Offline Parameter Estimation using Least Squares Method
+ Physical System Modeling and Offline Parameter Estimation using Least Squares Method
  
  Physical System 1         |  Physical System 2
 :-------------------------:|:-------------------------:
 ![](https://github.com/kosletr/Dynamic-Systems-Modeling/blob/master/Work%201/latex/sys1.jpg)  |  ![](https://github.com/kosletr/Dynamic-Systems-Modeling/blob/master/Work%201/latex/sys2_2.jpg)
 
-Parameter Estimation Evaluation is also included, to proof that the correct values of parameters have been found.
+Evaluation is also included, to proof that the parameters were estimated precisely.
 
    System 1                |          System  2
 :-------------------------:|:-------------------------:
@@ -28,7 +28,7 @@ Parameter Estimation Evaluation is also included, to proof that the correct valu
 
  
 ### Part 3
- Online Constrained Parameter Estimation of Multivariate Systems using Gradient Descent with Projection
+ Online Constrained Parameter Estimation of Multivariate Systems using Gradient Descent with Projection Method
 
    Example 1               |          Example  2
 :-------------------------:|:-------------------------:
@@ -36,7 +36,7 @@ Parameter Estimation Evaluation is also included, to proof that the correct valu
 
 
 ### Project
-Uknown Linear System Modeling - Black (or Gray due to knowledge of linearity) Box problem. Parameter estimation (ie. degree of diff. equation, coefficients etc.) given the inputs and the corresponding outputs of the system.
+Uknown Linear (Differential) System Modeling (Black-Box  Signal Modeling - Parameter estimation)
 
    Coefficients a          |        Coefficients b
 :-------------------------:|:-------------------------:
